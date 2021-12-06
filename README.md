@@ -37,10 +37,4 @@
         <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Applications-csharp's streak" src="https://github-readme-streak-stats.herokuapp.com/?user=SubhamRaoniar28&theme=black-ice&hide_border=true&stroke=0000&background=060A0CD0"/>
     </a>
 </p>
-
-## 📊 Github Stats
-
-  <br/>
-  [![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=willianrod)](https://github.com/anuraghazra/github-readme-stats)
-
 <br/>
