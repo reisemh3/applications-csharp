@@ -20,7 +20,7 @@
 ## 🚀 Languages and Tools:
 
 <p align="left"> 
-    <a href="https://docs.microsoft.com/fr-fr/dotnet/csharp/" target="_blank"> <img src="https://executive-education.epitech.eu/wp-content/uploads/2021/03/C-1.png"/> </a> 
+    <a href="https://docs.microsoft.com/fr-fr/dotnet/csharp/" target="_blank"> <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/csharp/csharp.png"/> </a> 
     <a href="https://www.w3.org/html/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/html-5.png"/> </a> 
     <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/css3.png"/> </a> 
     <a href="https://getbootstrap.com" target="_blank"> <img src="https://img.icons8.com/color/48/000000/bootstrap.png"/> </a> 
