@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zfCaJ5qw4HZ9s16fmR1DNW/xDqbtAG3WBOFwrXoL/1PkgJxrPwQqv5Iwmg85k8TyNjdIfkowlviA0U9pQ3YCfQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\reise\\Documents\\01 - CFA INSTA\\02 - Licence\\01 - INFORMATIQUE\\02 - C#\\01 - Exo\\Annuaire\\Annuaire.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\reise\\.nuget\\packages\\system.speech\\6.0.0\\system.speech.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

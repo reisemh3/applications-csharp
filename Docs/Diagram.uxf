@@ -1,0 +1,37 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text></help_text><element><id>UMLClass</id><coordinates><x>28</x><y>65</y><w>210</w><h>220</h></coordinates><panel_attributes>Candidats
+--
+#Nom String
+#Prenom String
+#Age int
+#Date Date
+#Adresse String
+#Mail String
+#Dossier FileStream
+#Note Float
+#Num int
+#Statut
+--
+Responsibilities
+-- Gestion</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>528</x><y>55</y><w>210</w><h>190</h></coordinates><panel_attributes>Administrateur
+--
+#Nom String
+#Prenom String
+#Age int
+#Date Date
+#Adresse String
+#Mail String
+#Num int
+#Droits
+--
+Responsibilities
+-- Gestion</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>528</x><y>295</y><w>210</w><h>50</h></coordinates><panel_attributes>Connection
+--
+void instance()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>618</x><y>235</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>308</x><y>65</y><w>160</w><h>140</h></coordinates><panel_attributes>Gestion
+--
+List
+void Add
+void Delete
+void Valide
+void Reject</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>228</x><y>145</y><w>100</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=0.n</panel_attributes><additional_attributes>80;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>458</x><y>135</y><w>90</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1.1</panel_attributes><additional_attributes>10;10;70;10</additional_attributes></element></diagram>

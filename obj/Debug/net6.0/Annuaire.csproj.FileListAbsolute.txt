@@ -1,0 +1,33 @@
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\Annuaire\obj\Debug\net6.0\Annuaire.csproj.AssemblyReference.cache
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\Annuaire\obj\Debug\net6.0\Annuaire.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\Annuaire\obj\Debug\net6.0\Annuaire.AssemblyInfoInputs.cache
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\Annuaire\obj\Debug\net6.0\Annuaire.AssemblyInfo.cs
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\Annuaire\obj\Debug\net6.0\Annuaire.csproj.CoreCompileInputs.cache
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\Annuaire\bin\Debug\net6.0\Annuaire.exe
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\Annuaire\bin\Debug\net6.0\Annuaire.deps.json
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\Annuaire\bin\Debug\net6.0\Annuaire.runtimeconfig.json
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\Annuaire\bin\Debug\net6.0\Annuaire.dll
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\Annuaire\bin\Debug\net6.0\ref\Annuaire.dll
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\Annuaire\bin\Debug\net6.0\Annuaire.pdb
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\Annuaire\obj\Debug\net6.0\Annuaire.dll
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\Annuaire\obj\Debug\net6.0\ref\Annuaire.dll
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\Annuaire\obj\Debug\net6.0\Annuaire.pdb
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\Annuaire\obj\Debug\net6.0\Annuaire.genruntimeconfig.cache
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\01 - Exo\Annuaire\bin\Debug\net6.0\Annuaire.exe
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\01 - Exo\Annuaire\bin\Debug\net6.0\Annuaire.deps.json
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\01 - Exo\Annuaire\bin\Debug\net6.0\Annuaire.runtimeconfig.json
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\01 - Exo\Annuaire\bin\Debug\net6.0\Annuaire.dll
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\01 - Exo\Annuaire\bin\Debug\net6.0\ref\Annuaire.dll
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\01 - Exo\Annuaire\bin\Debug\net6.0\Annuaire.pdb
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\01 - Exo\Annuaire\bin\Debug\net6.0\System.Speech.dll
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\01 - Exo\Annuaire\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Speech.dll
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\01 - Exo\Annuaire\obj\Debug\net6.0\Annuaire.csproj.AssemblyReference.cache
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\01 - Exo\Annuaire\obj\Debug\net6.0\Annuaire.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\01 - Exo\Annuaire\obj\Debug\net6.0\Annuaire.AssemblyInfoInputs.cache
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\01 - Exo\Annuaire\obj\Debug\net6.0\Annuaire.AssemblyInfo.cs
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\01 - Exo\Annuaire\obj\Debug\net6.0\Annuaire.csproj.CoreCompileInputs.cache
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\01 - Exo\Annuaire\obj\Debug\net6.0\Annuaire.csproj.CopyComplete
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\01 - Exo\Annuaire\obj\Debug\net6.0\Annuaire.dll
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\01 - Exo\Annuaire\obj\Debug\net6.0\ref\Annuaire.dll
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\01 - Exo\Annuaire\obj\Debug\net6.0\Annuaire.pdb
+C:\Users\reise\Documents\01 - CFA INSTA\02 - Licence\01 - INFORMATIQUE\02 - C#\01 - Exo\Annuaire\obj\Debug\net6.0\Annuaire.genruntimeconfig.cache
