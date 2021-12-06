@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Annuaire // Note: actual namespace depends on the project name.
 {
-    public class Candidats
+    public class Candidats //Formulaire de candidatures
     {
         private String name;
         private String prenom;
