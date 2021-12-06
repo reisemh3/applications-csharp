@@ -1,22 +1,19 @@
-# applications-csharp
-Programme de gestion de candidatures
-
-
+# Applications-csharp
 <a href="#"><img width="100%" height="auto" src="https://i.imgur.com/iXuL1HG.png" height="175px"/></a>
 
 <h1 align="center">Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, I'm Subham</h1>
-<h3 align="center">I'm a passionate Full Stack Developer from India.</h3>
+<h3 align="center">This is a candidate management program for CFA INSTA.</h3>
 
 
-## 🙋‍♂️ About Me
+## 🙋‍♂️ About The Project
 
-- 🔭 I’m currently working on **[Covid-19 Tracker](https://covid-19-tracker-e4bda.web.app/)**
+- 🔭 We are currently working on a **[management program](https://github.com/reisemh3/applications-csharp)**
 
-- 🌱 I’m currently learning **Data Structures and Algorithms.**
+- 🌱 We are currently learning **Project Management and C#.**
 
-- 👯 I’m looking to collaborate on **OpenSource Projects**
+- 👯 We are looking to collaborate with **CFA INSTA**
 
-- 👨‍💻 All of my projects are available at **[My Portfolio](https://subhamraoniar.com)**
+- 👨‍💻 All of your projects are available at **[Applications-csharp](https://github.com/reisemh3/applications-csharp)**
 
 - 📫 How to reach me **subham.raoniar@gmail.com**
 
