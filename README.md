@@ -1,7 +1,7 @@
 # Applications-csharp
 <a href="#"><img width="100%" height="auto" src="https://i.imgur.com/iXuL1HG.png" height="175px"/></a>
 
-<h1 align="center">Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, I'm Subham</h1>
+<h1 align="center">Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"></h1>
 <h3 align="center">This is a candidate management program for CFA INSTA.</h3>
 
 
@@ -15,9 +15,7 @@
 
 - 👨‍💻 All of your projects are available at **[Applications-csharp](https://github.com/reisemh3/applications-csharp)**
 
-- 📫 How to reach me **subham.raoniar@gmail.com**
-
-- ⚡ Fun fact **I play games and go to the GYM very often.**
+- 📫 How to reach me **a.pinot@cfa-insta.fr**
 
 ## 🚀 Languages and Tools:
 
