@@ -7,7 +7,7 @@ namespace Annuaire // Note: actual namespace depends on the project name.
     public class Program
     {
         static String path =
-            Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "//Contacts.xml";
+            Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "//Candidats.xml";
         public static void Main(string[] args)
         {
             Console.WriteLine("What is your name?");
@@ -16,37 +16,37 @@ namespace Annuaire // Note: actual namespace depends on the project name.
             Console.WriteLine($"{Environment.NewLine}Hello, {name}, on {currentDate:d} at {currentDate:t}!");
             Console.Write($"{Environment.NewLine}Press any key to exit...");
             Console.ReadKey(true);
-            
-            List<Contact> contacts = new List<Contact>();
+
+            List<Candidats> candidats = new List<Candidats>();
             Console.WriteLine("\n\t");
-            Console.WriteLine("\t-----------------------CONTACT--------------------------");
-            contacts.Add(new Contact("Joe", "0710203040"));
-            contacts.Add(new Contact("Aly", "0612233445"));
-            contacts.Add(new Contact("Mounira", "0610203040"));
-            WriteXML(contacts);
+            Console.WriteLine("\t-----------------------CANDIDATS------------------------");
+            candidats.Add(new Candidats("Joe", "0710203040"));
+            candidats.Add(new Candidats("Aly", "0612233445"));
+            candidats.Add(new Candidats("Mounira", "0610203040"));
+            WriteXML(candidats);
             ReadXML();
             Console.WriteLine("\t--------------------------------------------------------");
             Console.ReadKey(true);
         }
-        public static void WriteXML(List<Contact> contacts)
+        public static void WriteXML(List<Candidats> candidats)
         {
             System.Xml.Serialization.XmlSerializer writer =
-                new System.Xml.Serialization.XmlSerializer(typeof(List<Contact>));
+                new System.Xml.Serialization.XmlSerializer(typeof(List<Candidats>));
 
             System.IO.FileStream file = System.IO.File.Create(path);
 
-            writer.Serialize(file, contacts);
+            writer.Serialize(file, candidats);
             file.Close();
         }
         public static void ReadXML()
         {
             System.Xml.Serialization.XmlSerializer reader =
-                new System.Xml.Serialization.XmlSerializer(typeof(List<Contact>));
+                new System.Xml.Serialization.XmlSerializer(typeof(List<Candidats>));
             System.IO.StreamReader file = new StreamReader(path);
-            List<Contact> listContacts = (List<Contact>)reader.Deserialize(file);
+            List<Candidats> listCandidats = (List<Candidats>)reader.Deserialize(file);
             file.Close();
 
-            foreach(Contact c in listContacts)
+            foreach(Candidats c in listCandidats)
             {
                 Console.WriteLine(c.ToString());
             }

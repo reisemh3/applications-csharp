@@ -4,50 +4,25 @@ using System.Linq;
 
 namespace Annuaire // Note: actual namespace depends on the project name.
 {
+    [Serializable()]
     public class Candidats //Formulaire de candidatures
     {
         private String name;
-        private String prenom;
-        private int age;
-        private DateTime date;
+        public String Name { get => name; set => name = value; }
         private String number;
-        private String adresse;
-        private String mail;
-        private String dossier;
-        private String note;
-        private String status;
+        public string Number { get => number; set => number = value; }
         public Candidats()
         {
         }
-        public Candidats(string name, string prenom, int age, DateTime date, string number, string adresse, string mail, string dossier, string note, string status)
+        public Candidats(String name, String number)
         {
             this.name = name;
-            this.prenom = prenom;
-            this.age = age;
-            this.date = date;
             this.number = number;
-            this.adresse = adresse;
-            this.mail = mail;
-            this.dossier = dossier;
-            this.note = note;
-            this.status = status;
         }
-        public override bool Equals(object? obj)
+        public override string ToString()
         {
-            return base.Equals(obj);
+            return this.name+" : "+this.number;
+            // return $"{name : number}";
         }
-        public override string? ToString()
-        {
-            return base.ToString();
-        }
-        public override int GetHashCode()
-        {
-            return base.GetHashCode();
-        }
-        // public override string? ToString()
-        // {
-        //     return base.ToString();
-        // }
-        
     }
 }
