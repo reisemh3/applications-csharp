@@ -1,15 +1,14 @@
 <diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text></help_text><element><id>UMLClass</id><coordinates><x>0</x><y>45</y><w>210</w><h>220</h></coordinates><panel_attributes>Candidats
 --
-#Nom String
-#Prenom String
+#LastName String
+#FirstName String
 #Age int
-#Date Date
-#Adresse String
+#Birthday Date
+#Address String
 #Mail String
-#Dossier FileStream
-#Note Float
-#Num int
-#Statut
+#OvrAverage Float
+#PhoneNumber int
+#Status Bool
 --
 Responsibilities
 -- Gestion</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>500</x><y>35</y><w>210</w><h>190</h></coordinates><panel_attributes>Administrateur
