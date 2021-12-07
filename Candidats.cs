@@ -48,5 +48,6 @@ namespace Annuaire // Note: actual namespace depends on the project name.
         // {
         //     return base.ToString();
         // }
+        
     }
 }
