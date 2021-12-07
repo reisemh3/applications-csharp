@@ -5,6 +5,8 @@
 #Age int
 #Birthday Date
 #Address String
+#City String
+#Postcode int
 #Mail String
 #OvrAverage Float
 #PhoneNumber int
