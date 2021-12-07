@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "Annuaire/1.0.0": {
+      "ApplicationManager/1.0.0": {
         "dependencies": {
           "System.Speech": "6.0.0"
         },
         "runtime": {
-          "Annuaire.dll": {}
+          "ApplicationManager.dll": {}
         }
       },
       "System.Speech/6.0.0": {
@@ -33,7 +33,7 @@
     }
   },
   "libraries": {
-    "Annuaire/1.0.0": {
+    "ApplicationManager/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

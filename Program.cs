@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Annuaire // Note: actual namespace depends on the project name.
+namespace ApplicationManager // Note: actual namespace depends on the project name.
 {
     public class Program
     {
@@ -10,23 +10,21 @@ namespace Annuaire // Note: actual namespace depends on the project name.
             Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "//Candidats.xml";
         public static void Main(string[] args)
         {
-            Console.WriteLine("What is your name?");
-            var name = Console.ReadLine();
-            var currentDate = DateTime.Now;
-            Console.WriteLine($"{Environment.NewLine}Hello, {name}, on {currentDate:d} at {currentDate:t}!");
-            Console.Write($"{Environment.NewLine}Press any key to exit...");
-            Console.ReadKey(true);
-
             List<Candidats> candidats = new List<Candidats>();
             Console.WriteLine("\n\t");
             Console.WriteLine("\t-----------------------CANDIDATS------------------------");
-            candidats.Add(new Candidats($"{firstName}", "0710203040"));
-            candidats.Add(new Candidats("Aly", "0612233445"));
-            candidats.Add(new Candidats("Mounira", "0610203040"));
+            candidats.Add(new Candidats("lastName", "firstName", 30, "1990-12-12", "address", "city", 93260, "mail", 15, "0610203040", false));
+            // candidats.Add(new Candidats($"{lastName, firstName, age,birthday, address, city, postcode, mail, ovrAverage, phoneNumber}"));
+            // Console.WriteLine($"{Environment.NewLine}Hello, {lastName, firstName, age, birthday, mail}, from {address, city, postcode}, {mail}!");
+            Console.Write($"{Environment.NewLine}");
             WriteXML(candidats);
             ReadXML();
             Console.WriteLine("\t--------------------------------------------------------");
             Console.ReadKey(true);
+        }
+        private void AddCandidate(string CandidatsCollections)
+        {
+
         }
         public static void WriteXML(List<Candidats> candidats)
         {
