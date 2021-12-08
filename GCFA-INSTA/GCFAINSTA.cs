@@ -38,7 +38,9 @@ namespace GCFA_INSTA
 
         private void ExitCandidat_Click(object sender, EventArgs e)
         {
-
+            Candidature valider = new Candidature();
+            valider.Show();
+            //this.Close();
         }
 
         private void TxtNom_TextChanged(object sender, EventArgs e)

@@ -79,6 +79,8 @@
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.TitreList);
             this.Controls.Add(this.ReturnMenu);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "ListCandidat";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Liste Candidats";
