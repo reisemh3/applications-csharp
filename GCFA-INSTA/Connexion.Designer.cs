@@ -98,6 +98,8 @@
             this.TxtLogin.Size = new System.Drawing.Size(250, 20);
             this.TxtLogin.TabIndex = 4;
             this.TxtLogin.TextChanged += new System.EventHandler(this.TxtLogin_TextChanged);
+            this.TxtLogin.Enter += new System.EventHandler(this.TxtLogin_Enter);
+            this.TxtLogin.Leave += new System.EventHandler(this.TxtLogin_Leave);
             // 
             // TxtPassword
             // 
@@ -108,6 +110,8 @@
             this.TxtPassword.Size = new System.Drawing.Size(250, 20);
             this.TxtPassword.TabIndex = 5;
             this.TxtPassword.TextChanged += new System.EventHandler(this.TxtPassword_TextChanged);
+            this.TxtPassword.Enter += new System.EventHandler(this.TxtPassword_Enter);
+            this.TxtPassword.Leave += new System.EventHandler(this.TxtPassword_Leave);
             // 
             // Titre
             // 
@@ -141,6 +145,7 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Connexion";
+            this.Load += new System.EventHandler(this.Connexion_Load_1);
             this.ResumeLayout(false);
             this.PerformLayout();
 

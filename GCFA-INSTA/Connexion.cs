@@ -17,16 +17,14 @@ namespace GCFA_INSTA
             InitializeComponent();
         }
 
+        private void Connexion_Load_1(object sender, EventArgs e)
+        {
+            int Année = Convert.ToUInt16(DateTime.Now.Year);
+        }
+
         private void TxtLogin_TextChanged(object sender, EventArgs e)
         {
-            if (TxtLogin.Text != "" && TxtPassword.Text != "")
-            {
-                Valider.Enabled = true;
-            }
-            else
-            {
-                Valider.Enabled = false;
-            }
+
         }
 
         private void TxtPassword_TextChanged(object sender, EventArgs e)
@@ -43,6 +41,7 @@ namespace GCFA_INSTA
 
         private void Valider_Click(object sender, EventArgs e)
         {
+
             ListCandidat valider = new ListCandidat();
             valider.Show();
             //this.Close();
@@ -59,5 +58,27 @@ namespace GCFA_INSTA
         {
 
         }
+
+        //----------------------Color Section Label-----------------------//
+        private void TxtLogin_Enter(object sender, EventArgs e)
+        {
+            TxtLogin.BackColor = Color.MediumTurquoise;
+        }
+
+        private void TxtLogin_Leave(object sender, EventArgs e)
+        {
+            TxtLogin.BackColor = Color.White;
+        }
+
+        private void TxtPassword_Enter(object sender, EventArgs e)
+        {
+            TxtPassword.BackColor = Color.MediumTurquoise;
+        }
+
+        private void TxtPassword_Leave(object sender, EventArgs e)
+        {
+            TxtPassword.BackColor = Color.White;
+        }
+        //-------------------------------------------------------------------//
     }
 }
