@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5f36dad1-8208-4a77-96e6-b92ad4f7502a": {
+      "ProjectGuid": "5f36dad1-8208-4a77-96e6-b92ad4f7502a",
+      "DisplayName": "GCFA-INSTA",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Fichiers divers",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}
