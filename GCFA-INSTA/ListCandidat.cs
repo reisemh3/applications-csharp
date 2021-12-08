@@ -24,7 +24,7 @@ namespace GCFA_INSTA
 
         private void button1_Click(object sender, EventArgs e)
         {
-            GCFAINSTA valider = new GCFAINSTA();
+            Candidature valider = new Candidature();
             valider.Show();
             //this.Close();
         }

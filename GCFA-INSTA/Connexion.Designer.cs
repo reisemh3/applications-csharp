@@ -134,6 +134,7 @@
             this.Controls.Add(this.ID);
             this.Controls.Add(this.Annuler);
             this.Controls.Add(this.Valider);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Connexion";
             this.ShowInTaskbar = false;
