@@ -41,6 +41,7 @@
             // Valider
             // 
             this.Valider.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.Valider.Enabled = false;
             this.Valider.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Valider.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.Valider.Location = new System.Drawing.Point(126, 179);

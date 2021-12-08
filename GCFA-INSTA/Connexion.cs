@@ -19,12 +19,26 @@ namespace GCFA_INSTA
 
         private void TxtLogin_TextChanged(object sender, EventArgs e)
         {
-
+            if (TxtLogin.Text != "" && TxtPassword.Text != "")
+            {
+                Valider.Enabled = true;
+            }
+            else
+            {
+                Valider.Enabled = false;
+            }
         }
 
         private void TxtPassword_TextChanged(object sender, EventArgs e)
         {
-
+            if (TxtLogin.Text != "" && TxtPassword.Text != "")
+            {
+                Valider.Enabled = true;
+            }
+            else
+            {
+                Valider.Enabled = false;
+            }
         }
 
         private void Valider_Click(object sender, EventArgs e)
@@ -39,6 +53,11 @@ namespace GCFA_INSTA
             GCFAINSTA valider = new GCFAINSTA();
             valider.Show();
             //this.Close();
+        }
+
+        private void Connexion_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

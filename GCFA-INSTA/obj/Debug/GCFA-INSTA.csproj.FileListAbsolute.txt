@@ -112,4 +112,4 @@ G:\01-CFA INSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applica
 G:\01-CFA INSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\obj\Debug\GCFA-INSTA.csproj.CopyComplete
 G:\01-CFA INSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\obj\Debug\GCFA-INSTA.exe
 G:\01-CFA INSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\obj\Debug\GCFA-INSTA.pdb
-G:\01-CFA INSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\obj\Debug\GCFA_INSTA.NewPage.resources
+G:\01-CFA INSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\obj\Debug\GCFA_INSTA.Form1.resources
