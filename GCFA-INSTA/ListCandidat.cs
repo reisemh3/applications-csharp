@@ -16,19 +16,21 @@ namespace GCFA_INSTA
         {
             InitializeComponent();
         }
-
+        //------------------Fenetre princîpal de ListCandidat-----------------//
         private void ListCandidat_Load(object sender, EventArgs e)
         {
 
         }
-
+        //-------------------------Bouton Retour------------------------------//
         private void button1_Click(object sender, EventArgs e)
         {
-            Candidature valider = new Candidature();
-            valider.Show();
+            //Création d'une fonction qui ouvre une nouvlle fenetre en cliquant sur le bouton
+            Candidature candidature = new Candidature();
+            candidature.Show();
             //this.Close();
+            //***************************************************************************//
         }
-
+        //---------------------Fenetre d'affichage List------------------------//
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
