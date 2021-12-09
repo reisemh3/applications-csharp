@@ -16,19 +16,23 @@ namespace GCFA_INSTA
         {
             InitializeComponent();
         }
-
+        //-------------------------Bouton Candidature---------------------//
         private void button1_Click(object sender, EventArgs e)
         {
-            GCFAINSTA valider = new GCFAINSTA();
-            valider.Show();
+            //Création d'une fonction qui ouvre une nouvlle fenetre en cliquant sur le bouton
+            GCFAINSTA gcfainsta = new GCFAINSTA();
+            gcfainsta.Show();
             //this.Close();
+            //***************************************************************************//
         }
-
+        //-------------------------Bouton ListCandidat-------------------//
         private void button2_Click(object sender, EventArgs e)
         {
-            ListCandidat valider = new ListCandidat();
-            valider.Show();
+            //Création d'une fonction qui ouvre une nouvlle fenetre en cliquant sur le bouton
+            ListCandidat listCandidat = new ListCandidat();
+            listCandidat.Show();
             //this.Close();
+            //***************************************************************************//
         }
     }
 }
