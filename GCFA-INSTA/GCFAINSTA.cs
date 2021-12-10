@@ -63,7 +63,7 @@ namespace GCFA_INSTA
                     //var sqlConnexion = new SqlConnection(coserv);
 
                     //sqlConnexion.Open();
-                    var req = "insert into Candidats values('" + TxtNom.Text + "', '" + TxtPrenom.Text + "','" + TxtAge.Text + "','" + DateTimePicker.Text + "','" + TxtAdresse.Text + "','" + TxtVille.Text + "','" + TxtEmail.Text + "','" + TxtCodePostal.Text + "','" + TxtAverage.Text + "','" + TxtNumber.Text + "')";
+                    var req = "insert into dbcandidat values('" + TxtNom.Text + "', '" + TxtPrenom.Text + "','" + TxtAge.Text + "','" + DateTimePicker.Text + "','" + TxtAdresse.Text + "','" + TxtVille.Text + "','" + TxtEmail.Text + "','" + TxtCodePostal.Text + "','" + TxtAverage.Text + "','" + TxtNumber.Text + "')";
                     //var cmd = new MySqlCommand(req, sqlConnexion);
                     //var cmd = ExecuteReader();
                     MessageBox.Show("Candidat ajouté avec succès");

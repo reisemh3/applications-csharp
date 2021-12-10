@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GCFAINSTA));
-            this.CoAdmin = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.Titre = new System.Windows.Forms.Label();
             this.TxtNom = new System.Windows.Forms.TextBox();
@@ -59,19 +58,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // CoAdmin
-            // 
-            this.CoAdmin.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.CoAdmin.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold);
-            this.CoAdmin.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.CoAdmin.Location = new System.Drawing.Point(435, 499);
-            this.CoAdmin.Name = "CoAdmin";
-            this.CoAdmin.Size = new System.Drawing.Size(175, 50);
-            this.CoAdmin.TabIndex = 0;
-            this.CoAdmin.Text = "Connexion";
-            this.CoAdmin.UseVisualStyleBackColor = false;
-            this.CoAdmin.Click += new System.EventHandler(this.button1_Click);
-            // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.SystemColors.HotTrack;
@@ -93,7 +79,7 @@
             this.Titre.ForeColor = System.Drawing.Color.Navy;
             this.Titre.Location = new System.Drawing.Point(349, 27);
             this.Titre.Name = "Titre";
-            this.Titre.Size = new System.Drawing.Size(326, 33);
+            this.Titre.Size = new System.Drawing.Size(297, 32);
             this.Titre.TabIndex = 9;
             this.Titre.Text = "Nouvelle candidature";
             // 
@@ -115,7 +101,7 @@
             this.Nom.ForeColor = System.Drawing.Color.Lavender;
             this.Nom.Location = new System.Drawing.Point(122, 107);
             this.Nom.Name = "Nom";
-            this.Nom.Size = new System.Drawing.Size(53, 17);
+            this.Nom.Size = new System.Drawing.Size(45, 16);
             this.Nom.TabIndex = 7;
             this.Nom.Text = "Nom :";
             // 
@@ -137,7 +123,7 @@
             this.Age.ForeColor = System.Drawing.Color.Lavender;
             this.Age.Location = new System.Drawing.Point(122, 182);
             this.Age.Name = "Age";
-            this.Age.Size = new System.Drawing.Size(47, 17);
+            this.Age.Size = new System.Drawing.Size(42, 16);
             this.Age.TabIndex = 10;
             this.Age.Text = "Age :";
             // 
@@ -160,7 +146,7 @@
             this.Adresse.ForeColor = System.Drawing.Color.Lavender;
             this.Adresse.Location = new System.Drawing.Point(122, 257);
             this.Adresse.Name = "Adresse";
-            this.Adresse.Size = new System.Drawing.Size(73, 17);
+            this.Adresse.Size = new System.Drawing.Size(67, 16);
             this.Adresse.TabIndex = 12;
             this.Adresse.Text = "Adresse :";
             // 
@@ -182,7 +168,7 @@
             this.Email.ForeColor = System.Drawing.Color.Lavender;
             this.Email.Location = new System.Drawing.Point(122, 337);
             this.Email.Name = "Email";
-            this.Email.Size = new System.Drawing.Size(58, 17);
+            this.Email.Size = new System.Drawing.Size(51, 16);
             this.Email.TabIndex = 14;
             this.Email.Text = "Email :";
             // 
@@ -204,7 +190,7 @@
             this.Average.ForeColor = System.Drawing.Color.Lavender;
             this.Average.Location = new System.Drawing.Point(122, 416);
             this.Average.Name = "Average";
-            this.Average.Size = new System.Drawing.Size(270, 17);
+            this.Average.Size = new System.Drawing.Size(238, 16);
             this.Average.TabIndex = 16;
             this.Average.Text = "Note générale du dernier diplôme :";
             // 
@@ -226,7 +212,7 @@
             this.Number.ForeColor = System.Drawing.Color.Lavender;
             this.Number.Location = new System.Drawing.Point(510, 416);
             this.Number.Name = "Number";
-            this.Number.Size = new System.Drawing.Size(93, 17);
+            this.Number.Size = new System.Drawing.Size(82, 16);
             this.Number.TabIndex = 26;
             this.Number.Text = "Téléphone :";
             // 
@@ -248,7 +234,7 @@
             this.CodePostal.ForeColor = System.Drawing.Color.Lavender;
             this.CodePostal.Location = new System.Drawing.Point(510, 337);
             this.CodePostal.Name = "CodePostal";
-            this.CodePostal.Size = new System.Drawing.Size(109, 17);
+            this.CodePostal.Size = new System.Drawing.Size(92, 16);
             this.CodePostal.TabIndex = 24;
             this.CodePostal.Text = "Code Postal :";
             // 
@@ -270,7 +256,7 @@
             this.Ville.ForeColor = System.Drawing.Color.Lavender;
             this.Ville.Location = new System.Drawing.Point(510, 257);
             this.Ville.Name = "Ville";
-            this.Ville.Size = new System.Drawing.Size(49, 17);
+            this.Ville.Size = new System.Drawing.Size(44, 16);
             this.Ville.TabIndex = 22;
             this.Ville.Text = "Ville :";
             // 
@@ -282,7 +268,7 @@
             this.Birthday.ForeColor = System.Drawing.Color.Lavender;
             this.Birthday.Location = new System.Drawing.Point(510, 182);
             this.Birthday.Name = "Birthday";
-            this.Birthday.Size = new System.Drawing.Size(155, 17);
+            this.Birthday.Size = new System.Drawing.Size(136, 16);
             this.Birthday.TabIndex = 20;
             this.Birthday.Text = "Date de naissance :";
             // 
@@ -304,7 +290,7 @@
             this.Prenom.ForeColor = System.Drawing.Color.Lavender;
             this.Prenom.Location = new System.Drawing.Point(510, 107);
             this.Prenom.Name = "Prenom";
-            this.Prenom.Size = new System.Drawing.Size(74, 17);
+            this.Prenom.Size = new System.Drawing.Size(63, 16);
             this.Prenom.TabIndex = 18;
             this.Prenom.Text = "Prenom :";
             // 
@@ -349,7 +335,7 @@
             this.label1.ForeColor = System.Drawing.Color.Lavender;
             this.label1.Location = new System.Drawing.Point(122, 469);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(235, 17);
+            this.label1.Size = new System.Drawing.Size(206, 16);
             this.label1.TabIndex = 31;
             this.label1.Text = "Candidature validé ou refusé :";
             // 
@@ -400,7 +386,6 @@
             this.Controls.Add(this.TxtNom);
             this.Controls.Add(this.Nom);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.CoAdmin);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -415,8 +400,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button CoAdmin;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label Titre;
         private System.Windows.Forms.TextBox TxtNom;
