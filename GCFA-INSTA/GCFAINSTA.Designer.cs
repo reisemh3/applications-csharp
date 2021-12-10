@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GCFAINSTA));
-            this.CoAdmin = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.Titre = new System.Windows.Forms.Label();
             this.TxtNom = new System.Windows.Forms.TextBox();
@@ -55,26 +54,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // CoAdmin
-            // 
-            this.CoAdmin.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.CoAdmin.Font = new System.Drawing.Font("Courier New", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CoAdmin.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.CoAdmin.Location = new System.Drawing.Point(99, 591);
-            this.CoAdmin.Margin = new System.Windows.Forms.Padding(4);
-            this.CoAdmin.Name = "CoAdmin";
-            this.CoAdmin.Size = new System.Drawing.Size(233, 62);
-            this.CoAdmin.TabIndex = 0;
-            this.CoAdmin.Text = "Connexion";
-            this.CoAdmin.UseVisualStyleBackColor = false;
-            this.CoAdmin.Click += new System.EventHandler(this.button1_Click);
-            // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.SystemColors.HotTrack;
             this.button2.Font = new System.Drawing.Font("Courier New", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.button2.Location = new System.Drawing.Point(635, 591);
+            this.button2.Location = new System.Drawing.Point(954, 579);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(233, 62);
@@ -309,7 +294,7 @@
             this.ExitCandidat.BackColor = System.Drawing.SystemColors.HotTrack;
             this.ExitCandidat.Font = new System.Drawing.Font("Courier New", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ExitCandidat.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.ExitCandidat.Location = new System.Drawing.Point(955, 591);
+            this.ExitCandidat.Location = new System.Drawing.Point(99, 579);
             this.ExitCandidat.Margin = new System.Windows.Forms.Padding(4);
             this.ExitCandidat.Name = "ExitCandidat";
             this.ExitCandidat.Size = new System.Drawing.Size(233, 62);
@@ -359,7 +344,6 @@
             this.Controls.Add(this.TxtNom);
             this.Controls.Add(this.Nom);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.CoAdmin);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
@@ -374,8 +358,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button CoAdmin;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label Titre;
         private System.Windows.Forms.TextBox TxtNom;

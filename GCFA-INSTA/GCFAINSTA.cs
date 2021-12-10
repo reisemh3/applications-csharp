@@ -38,8 +38,6 @@ namespace GCFA_INSTA
             {
                 //Création d'une fonction qui ouvre une nouvlle fenetre en cliquant sur le bouton
                 ListCandidat listCandidat = new ListCandidat();
-                listCandidat.Show();
-                //this.Close();
                 Applicant app1 = new Applicant();
                 app1.lastName = TxtNom.Text;
                 app1.firstName = TxtPrenom.Text;
@@ -52,12 +50,14 @@ namespace GCFA_INSTA
                 app1.phoneNumber = int.Parse(TxtNumber.Text);
 
                 ListCandidat.ApplicationsDB.Applicant.InsertOnSubmit(app1);
-                //ListCandidat.ApplicationsDB.Applicant.
+                ListCandidat.ApplicationsDB.SubmitChanges();
+                Console.WriteLine(app1);
                 MessageBox.Show("Le candidat a été ajouté.");
+                listCandidat.Show();
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message + " " + "Veuillez remplir tous les champs avant de valider la candidature.");
             }
             //***************************************************************************//
         }
@@ -67,7 +67,7 @@ namespace GCFA_INSTA
             //Création d'une fonction qui ouvre une nouvlle fenetre en cliquant sur le bouton
             Candidature candidature = new Candidature();
             candidature.Show();
-            //this.Close();
+            this.Hide();
             //***************************************************************************//
         }
 

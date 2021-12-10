@@ -54,9 +54,9 @@ namespace GCFA_INSTA
         private void Valider_Click(object sender, EventArgs e)
         {
             //Création d'une fonction qui ouvre une nouvlle fenetre en cliquant sur le bouton
-            ListCandidat listCandidat = new ListCandidat();
-            listCandidat.Show();
-            //this.Close();
+            Candidature candidature = new Candidature();
+            candidature.Show();
+            this.Hide();
             //***************************************************************************//
         }
         //-------------------------Bouton Annuler--------------------------//
@@ -65,7 +65,7 @@ namespace GCFA_INSTA
             //Création d'une fonction qui ouvre une nouvlle fenetre en cliquant sur le bouton
             GCFAINSTA gcfainsta = new GCFAINSTA();              
             gcfainsta.Show();
-            //this.Close();
+            this.Hide();
             //***************************************************************************//
         }
         //--------------Fenetre Connexion à ne pas toucher-----------------//

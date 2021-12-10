@@ -24,23 +24,11 @@ namespace GCFA_INSTA
             dataGridView1.Dock = DockStyle.Fill;
             this.Controls.Add(dataGridView1);
             InitializeComponent();
-           //AfficherList();
         }
-        /*private void AfficherList()
-        {
-            Con.Open();
-            string req = "SELECT * from Database1.mdf.Applicants";
-            SqlDataAdapter sda = new SqlDataAdapter(req, conn);
-            SqlCommandBuilder builder = new SqlCommandBuilder(sda);
-            var ds = new DataSet();
-            sda.Fill(ds);
-            checkedListBox1.DataSource = ds.Tables[0];
-            Close();
-        }*/
+      
         //------------------Fenetre princîpal de ListCandidat-----------------//
         private void ListCandidat_Load(object sender, EventArgs e)
         {
-            //this.Controls.Add(dataGridView1);
             dataGridView1.DataSource = null;
             dataGridView1.DataSource = ListCandidat.ApplicationsDB.Applicant;
         }
@@ -50,7 +38,7 @@ namespace GCFA_INSTA
             //Création d'une fonction qui ouvre une nouvlle fenetre en cliquant sur le bouton
             Candidature candidature = new Candidature();
             candidature.Show();
-            //this.Close();
+            this.Hide();
             //***************************************************************************//
         }
         //---------------------Fenetre d'affichage List------------------------//

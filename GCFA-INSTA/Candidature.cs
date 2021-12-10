@@ -22,7 +22,7 @@ namespace GCFA_INSTA
             //Création d'une fonction qui ouvre une nouvlle fenetre en cliquant sur le bouton
             GCFAINSTA gcfainsta = new GCFAINSTA();
             gcfainsta.Show();
-            //this.Close();
+            this.Hide();
             //***************************************************************************//
         }
         //-------------------------Bouton ListCandidat-------------------//
@@ -31,7 +31,6 @@ namespace GCFA_INSTA
             //Création d'une fonction qui ouvre une nouvlle fenetre en cliquant sur le bouton
             ListCandidat listCandidat = new ListCandidat();
             listCandidat.Show();
-            //this.Close();
             //***************************************************************************//
         }
     }
