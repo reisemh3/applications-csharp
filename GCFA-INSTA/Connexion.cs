@@ -18,30 +18,12 @@ namespace GCFA_INSTA
         public Connexion()
         {
             InitializeComponent();
-
-            string cs = @"server=localhost;userid=root;password=;database=gcfainsta";
-            var sqlConnexion = new MySqlConnection(cs);
-            sqlConnexion.Open();
-            Console.WriteLine($"MySQL version : {sqlConnexion.ServerVersion}");
-            var stm = "SELECT IdAdmin, Email, Mdp, Num FROM dbadmin";
-            var cmd = new MySqlCommand(stm, sqlConnexion);
-            var rdr = cmd.ExecuteReader();
-            rdr.Read();
-            int i = 0;
-            while (i < 4)
-            {
-                Console.WriteLine(rdr[i]);
-                i++;
-            }
         }
 
         //SqlConnection sqlConnexion = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\reise\OneDrive\Documents\GCFAINSTA.mdf;Integrated Security=True;Connect Timeout=30");
 
         private void TxtLogin_TextChanged(object sender, EventArgs e)
         {
-            string coserv = @"server=localhost;userid=root;password=;database=gcfainsta";
-            var sqlConnexion = new MySqlConnection(coserv);
-            sqlConnexion.Open();
             //condition if...else pour bloquer le bouton valider si les champs sont vides.
             if (TxtLogin.Text != "" && TxtPassword.Text != "")
             {
@@ -56,9 +38,6 @@ namespace GCFA_INSTA
 
         private void TxtPassword_TextChanged(object sender, EventArgs e)
         {
-            string coserv = @"server=localhost;userid=root;password=;database=gcfainsta";
-            var sqlConnexion = new MySqlConnection(coserv);
-            sqlConnexion.Open();
             //condition if...else pour bloquer le bouton valider si les champs sont vides.
             if (TxtLogin.Text != "" && TxtPassword.Text != "")
             {
@@ -75,44 +54,6 @@ namespace GCFA_INSTA
         {
             string coserv = @"server=localhost;userid=root;password=;database=gcfainsta";
             var sqlConnexion = new MySqlConnection(coserv);
-
-            if (TxtLogin.Text == "" || TxtPassword.Text == "")
-            {
-                MessageBox.Show("Completez les informations svp");
-
-            }
-            else
-            {
-                sqlConnexion.Open();
-                Console.WriteLine($"MySQL version : {sqlConnexion.ServerVersion}");
-                var stm = "SELECT IdAdmin, Email, Mdp, Num FROM dbadmin";
-                var cmd = new MySqlCommand(stm, sqlConnexion);
-                var rdr = cmd.ExecuteReader();
-                rdr.Read();
-                int i = 0;
-                while (i < 4)
-                {
-                    Console.WriteLine(rdr[i]);
-                    i++;
-                }
-
-                var sda = new MySqlDataAdapter("select count(*) from dbadmin where Email='" + TxtLogin + "' and Mdp='" + TxtPassword + "'", coserv);
-                DataTable dt = new DataTable();
-                sda.Fill(dt);
-                if (dt.Rows[0][0].ToString() == "1")
-                {
-                    ListCandidat listCandidat = new ListCandidat();
-                    listCandidat.Show();
-                    this.Hide();
-                    sqlConnexion.Close();
-                }
-                else
-                {
-                    MessageBox.Show("Mot de passe incorrect");
-                }
-                sqlConnexion.Close();
-            }
-
             if (TxtLogin.Text == "" || TxtPassword.Text == "")
             {
                 MessageBox.Show("Completez les informations svp");
@@ -122,34 +63,82 @@ namespace GCFA_INSTA
                 try
                 {
                     sqlConnexion.Open();
-                    string req = "insert into Candidats values('" + TxtLogin.Text + "', '" + TxtPassword.Text + "')";
-                    SqlCommand cmd = new SqlCommand(req);
-                    cmd.ExecuteNonQuery();
+                    string req = "SELECT * FROM dbadmin WHERE Email ='" + TxtLogin.Text.Trim() +
+                        "' AND Mdp = '" + TxtPassword.Text.Trim() + "'";
+                    MySqlCommand cmd2 = new MySqlCommand(req, sqlConnexion);
+                    cmd2.ExecuteNonQuery();
                     MessageBox.Show("Connexion avec succès");
+                    GCFAINSTA gcfainsta = new GCFAINSTA();
+                    gcfainsta.Show();
                     sqlConnexion.Close();
                 }
                 catch (Exception ex)
                 {
                     MessageBox.Show(ex.Message);
                 }
-                //Création d'une fonction qui ouvre une nouvlle fenetre en cliquant sur le bouton
-                //ListCandidat listCandidat = new ListCandidat();
-                //listCandidat.Show();
-                this.Close();
-                //***************************************************************************//
+
             }
+            if (isValid())
+            {
+                using(MySqlConnection sqlConnection = new MySqlConnection(coserv))
+                {
+                    string query = "SELECT * FROM dbadmin WHERE Email ='"+ TxtLogin.Text.Trim() +
+                        "' AND Mdp = '" + TxtPassword.Text.Trim() + "'";
+                    //MySqlConnection sda = new MySqlConnection(query, sqlConnection);
+                    DataTable dta = new DataTable();
+                    //sda.Fill(dta);
+                    if(dta.Rows.Count == 1)
+                    {
+                        sqlConnexion.Open();
+                        MessageBox.Show("Connexion avec succès");
+                        GCFAINSTA gcfainsta = new GCFAINSTA();
+                        gcfainsta.Show();
+                        sqlConnexion.Close();
+                    }
+                }
+            }
+        }
+
+        private bool isValid()
+        {
+            if(TxtLogin.Text.TrimStart() == string.Empty)
+            {
+                MessageBox.Show("Entrer un email valide", "Erreur");
+                return false;
+            }
+            else if(TxtPassword.Text.TrimStart() == string.Empty)
+            {
+                MessageBox.Show("Entrer un mot de passe valide", "Erreur");
+                return false;
+            }
+            return true;
         }
 
         private void Annuler_Click(object sender, EventArgs e)
         {
-            GCFAINSTA valider = new GCFAINSTA();
-            valider.Show();
-            //this.Close();
+            Candidature candidature = new Candidature();
+            candidature.Show();
         }
 
         private void Connexion_Load(object sender, EventArgs e)
         {
             int Année = Convert.ToUInt16(DateTime.Now.Year);
         }
+
+        //----------------MDP CACHE--------------------------//
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (TxtPassword.PasswordChar == '*')
+            {
+                button1.BringToFront();
+                TxtPassword.PasswordChar = '\0';
+            }
+            else if(TxtPassword.PasswordChar == '\0')
+            {
+                button1.BringToFront();
+                TxtPassword.PasswordChar = '*';
+            }
+        }
+        //--------------------------------------------------//
     }
 }

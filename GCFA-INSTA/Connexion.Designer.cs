@@ -36,6 +36,7 @@
             this.TxtLogin = new System.Windows.Forms.TextBox();
             this.TxtPassword = new System.Windows.Forms.TextBox();
             this.Titre = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Valider
@@ -122,6 +123,17 @@
             this.Titre.TabIndex = 6;
             this.Titre.Text = "Veuillez entrer vos identifiants";
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(540, 127);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(32, 21);
+            this.button1.TabIndex = 7;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Connexion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -129,6 +141,7 @@
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(684, 261);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.Titre);
             this.Controls.Add(this.TxtPassword);
             this.Controls.Add(this.TxtLogin);
@@ -158,5 +171,6 @@
         private System.Windows.Forms.TextBox TxtLogin;
         private System.Windows.Forms.TextBox TxtPassword;
         private System.Windows.Forms.Label Titre;
+        private System.Windows.Forms.Button button1;
     }
 }

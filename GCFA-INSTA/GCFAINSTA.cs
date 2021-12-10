@@ -89,8 +89,8 @@ namespace GCFA_INSTA
             //Candidature candidature = new Candidature();
             //candidature.Show();
             //this.Close();
-            ListCandidat listCandidat = new ListCandidat();
-            listCandidat.Show();
+            Candidature candidature = new Candidature();
+            candidature.Show();
             this.Close();
             //***************************************************************************//
         }
