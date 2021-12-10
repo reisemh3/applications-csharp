@@ -31,13 +31,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ListCandidat));
             this.ReturnMenu = new System.Windows.Forms.Button();
             this.TitreList = new System.Windows.Forms.Label();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // ReturnMenu
             // 
             this.ReturnMenu.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.ReturnMenu.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ReturnMenu.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
             this.ReturnMenu.ForeColor = System.Drawing.Color.GhostWhite;
             this.ReturnMenu.Location = new System.Drawing.Point(797, 499);
             this.ReturnMenu.Name = "ReturnMenu";
@@ -51,24 +51,22 @@
             // 
             this.TitreList.AutoSize = true;
             this.TitreList.BackColor = System.Drawing.Color.Transparent;
-            this.TitreList.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TitreList.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold);
             this.TitreList.ForeColor = System.Drawing.Color.Navy;
             this.TitreList.Location = new System.Drawing.Point(317, 32);
             this.TitreList.Name = "TitreList";
-            this.TitreList.Size = new System.Drawing.Size(366, 31);
+            this.TitreList.Size = new System.Drawing.Size(329, 33);
             this.TitreList.TabIndex = 10;
             this.TitreList.Text = "Liste des candidatures";
             // 
-            // checkedListBox1
+            // textBox1
             // 
-            this.checkedListBox1.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold);
-            this.checkedListBox1.ForeColor = System.Drawing.Color.Navy;
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Location = new System.Drawing.Point(12, 84);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(960, 395);
-            this.checkedListBox1.TabIndex = 11;
-            this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
+            this.textBox1.Location = new System.Drawing.Point(12, 98);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(960, 384);
+            this.textBox1.TabIndex = 12;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // ListCandidat
             // 
@@ -77,9 +75,10 @@
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(984, 561);
-            this.Controls.Add(this.checkedListBox1);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.TitreList);
             this.Controls.Add(this.ReturnMenu);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "ListCandidat";
@@ -95,6 +94,6 @@
 
         private System.Windows.Forms.Button ReturnMenu;
         private System.Windows.Forms.Label TitreList;
-        private System.Windows.Forms.CheckedListBox checkedListBox1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

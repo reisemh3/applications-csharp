@@ -54,15 +54,17 @@
             this.ExitCandidat = new System.Windows.Forms.Button();
             this.DateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.checkBox = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // CoAdmin
             // 
             this.CoAdmin.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.CoAdmin.Font = new System.Drawing.Font("Courier New", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CoAdmin.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold);
             this.CoAdmin.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.CoAdmin.Location = new System.Drawing.Point(74, 480);
+            this.CoAdmin.Location = new System.Drawing.Point(435, 499);
             this.CoAdmin.Name = "CoAdmin";
             this.CoAdmin.Size = new System.Drawing.Size(175, 50);
             this.CoAdmin.TabIndex = 0;
@@ -73,9 +75,9 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.button2.Font = new System.Drawing.Font("Courier New", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold);
             this.button2.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.button2.Location = new System.Drawing.Point(476, 480);
+            this.button2.Location = new System.Drawing.Point(616, 499);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(175, 50);
             this.button2.TabIndex = 1;
@@ -87,20 +89,21 @@
             // 
             this.Titre.AutoSize = true;
             this.Titre.BackColor = System.Drawing.Color.Transparent;
-            this.Titre.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Titre.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold);
             this.Titre.ForeColor = System.Drawing.Color.Navy;
             this.Titre.Location = new System.Drawing.Point(349, 27);
             this.Titre.Name = "Titre";
-            this.Titre.Size = new System.Drawing.Size(334, 31);
+            this.Titre.Size = new System.Drawing.Size(326, 33);
             this.Titre.TabIndex = 9;
             this.Titre.Text = "Nouvelle candidature";
             // 
             // TxtNom
             // 
+            this.TxtNom.Font = new System.Drawing.Font("Century Gothic", 8.25F);
             this.TxtNom.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.TxtNom.Location = new System.Drawing.Point(163, 104);
+            this.TxtNom.Location = new System.Drawing.Point(214, 104);
             this.TxtNom.Name = "TxtNom";
-            this.TxtNom.Size = new System.Drawing.Size(250, 20);
+            this.TxtNom.Size = new System.Drawing.Size(250, 21);
             this.TxtNom.TabIndex = 8;
             this.TxtNom.TextChanged += new System.EventHandler(this.TxtNom_TextChanged);
             // 
@@ -108,20 +111,21 @@
             // 
             this.Nom.AutoSize = true;
             this.Nom.BackColor = System.Drawing.Color.Transparent;
-            this.Nom.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold);
+            this.Nom.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.Nom.ForeColor = System.Drawing.Color.Lavender;
-            this.Nom.Location = new System.Drawing.Point(71, 107);
+            this.Nom.Location = new System.Drawing.Point(122, 107);
             this.Nom.Name = "Nom";
-            this.Nom.Size = new System.Drawing.Size(47, 16);
+            this.Nom.Size = new System.Drawing.Size(53, 17);
             this.Nom.TabIndex = 7;
             this.Nom.Text = "Nom :";
             // 
             // TxtAge
             // 
+            this.TxtAge.Font = new System.Drawing.Font("Century Gothic", 8.25F);
             this.TxtAge.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.TxtAge.Location = new System.Drawing.Point(163, 179);
+            this.TxtAge.Location = new System.Drawing.Point(214, 179);
             this.TxtAge.Name = "TxtAge";
-            this.TxtAge.Size = new System.Drawing.Size(250, 20);
+            this.TxtAge.Size = new System.Drawing.Size(250, 21);
             this.TxtAge.TabIndex = 11;
             this.TxtAge.TextChanged += new System.EventHandler(this.TxtAge_TextChanged);
             // 
@@ -129,20 +133,21 @@
             // 
             this.Age.AutoSize = true;
             this.Age.BackColor = System.Drawing.Color.Transparent;
-            this.Age.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold);
+            this.Age.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.Age.ForeColor = System.Drawing.Color.Lavender;
-            this.Age.Location = new System.Drawing.Point(71, 182);
+            this.Age.Location = new System.Drawing.Point(122, 182);
             this.Age.Name = "Age";
-            this.Age.Size = new System.Drawing.Size(47, 16);
+            this.Age.Size = new System.Drawing.Size(47, 17);
             this.Age.TabIndex = 10;
             this.Age.Text = "Age :";
             // 
             // TxtAdresse
             // 
+            this.TxtAdresse.Font = new System.Drawing.Font("Century Gothic", 8.25F);
             this.TxtAdresse.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.TxtAdresse.Location = new System.Drawing.Point(163, 254);
+            this.TxtAdresse.Location = new System.Drawing.Point(214, 254);
             this.TxtAdresse.Name = "TxtAdresse";
-            this.TxtAdresse.Size = new System.Drawing.Size(250, 20);
+            this.TxtAdresse.Size = new System.Drawing.Size(250, 21);
             this.TxtAdresse.TabIndex = 13;
             this.TxtAdresse.TextChanged += new System.EventHandler(this.TxtAdresse_TextChanged);
             // 
@@ -151,20 +156,21 @@
             this.Adresse.AutoEllipsis = true;
             this.Adresse.AutoSize = true;
             this.Adresse.BackColor = System.Drawing.Color.Transparent;
-            this.Adresse.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold);
+            this.Adresse.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.Adresse.ForeColor = System.Drawing.Color.Lavender;
-            this.Adresse.Location = new System.Drawing.Point(71, 257);
+            this.Adresse.Location = new System.Drawing.Point(122, 257);
             this.Adresse.Name = "Adresse";
-            this.Adresse.Size = new System.Drawing.Size(79, 16);
+            this.Adresse.Size = new System.Drawing.Size(73, 17);
             this.Adresse.TabIndex = 12;
             this.Adresse.Text = "Adresse :";
             // 
             // TxtEmail
             // 
+            this.TxtEmail.Font = new System.Drawing.Font("Century Gothic", 8.25F);
             this.TxtEmail.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.TxtEmail.Location = new System.Drawing.Point(163, 334);
+            this.TxtEmail.Location = new System.Drawing.Point(214, 334);
             this.TxtEmail.Name = "TxtEmail";
-            this.TxtEmail.Size = new System.Drawing.Size(250, 20);
+            this.TxtEmail.Size = new System.Drawing.Size(250, 21);
             this.TxtEmail.TabIndex = 15;
             this.TxtEmail.TextChanged += new System.EventHandler(this.TxtEmail_TextChanged);
             // 
@@ -172,20 +178,21 @@
             // 
             this.Email.AutoSize = true;
             this.Email.BackColor = System.Drawing.Color.Transparent;
-            this.Email.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold);
+            this.Email.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.Email.ForeColor = System.Drawing.Color.Lavender;
-            this.Email.Location = new System.Drawing.Point(71, 337);
+            this.Email.Location = new System.Drawing.Point(122, 337);
             this.Email.Name = "Email";
-            this.Email.Size = new System.Drawing.Size(63, 16);
+            this.Email.Size = new System.Drawing.Size(58, 17);
             this.Email.TabIndex = 14;
             this.Email.Text = "Email :";
             // 
             // TxtAverage
             // 
+            this.TxtAverage.Font = new System.Drawing.Font("Century Gothic", 8.25F);
             this.TxtAverage.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.TxtAverage.Location = new System.Drawing.Point(355, 413);
+            this.TxtAverage.Location = new System.Drawing.Point(406, 413);
             this.TxtAverage.Name = "TxtAverage";
-            this.TxtAverage.Size = new System.Drawing.Size(58, 20);
+            this.TxtAverage.Size = new System.Drawing.Size(58, 21);
             this.TxtAverage.TabIndex = 17;
             this.TxtAverage.TextChanged += new System.EventHandler(this.TxtAverage_TextChanged);
             // 
@@ -193,20 +200,21 @@
             // 
             this.Average.AutoSize = true;
             this.Average.BackColor = System.Drawing.Color.Transparent;
-            this.Average.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold);
+            this.Average.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.Average.ForeColor = System.Drawing.Color.Lavender;
-            this.Average.Location = new System.Drawing.Point(71, 416);
+            this.Average.Location = new System.Drawing.Point(122, 416);
             this.Average.Name = "Average";
-            this.Average.Size = new System.Drawing.Size(279, 16);
+            this.Average.Size = new System.Drawing.Size(270, 17);
             this.Average.TabIndex = 16;
             this.Average.Text = "Note générale du dernier diplôme :";
             // 
             // TxtNumber
             // 
+            this.TxtNumber.Font = new System.Drawing.Font("Century Gothic", 8.25F);
             this.TxtNumber.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.TxtNumber.Location = new System.Drawing.Point(714, 413);
+            this.TxtNumber.Location = new System.Drawing.Point(675, 413);
             this.TxtNumber.Name = "TxtNumber";
-            this.TxtNumber.Size = new System.Drawing.Size(177, 20);
+            this.TxtNumber.Size = new System.Drawing.Size(177, 21);
             this.TxtNumber.TabIndex = 27;
             this.TxtNumber.TextChanged += new System.EventHandler(this.TxtNumber_TextChanged);
             // 
@@ -214,20 +222,21 @@
             // 
             this.Number.AutoSize = true;
             this.Number.BackColor = System.Drawing.Color.Transparent;
-            this.Number.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold);
+            this.Number.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.Number.ForeColor = System.Drawing.Color.Lavender;
-            this.Number.Location = new System.Drawing.Point(549, 416);
+            this.Number.Location = new System.Drawing.Point(510, 416);
             this.Number.Name = "Number";
-            this.Number.Size = new System.Drawing.Size(95, 16);
+            this.Number.Size = new System.Drawing.Size(93, 17);
             this.Number.TabIndex = 26;
             this.Number.Text = "Téléphone :";
             // 
             // TxtCodePostal
             // 
+            this.TxtCodePostal.Font = new System.Drawing.Font("Century Gothic", 8.25F);
             this.TxtCodePostal.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.TxtCodePostal.Location = new System.Drawing.Point(714, 334);
+            this.TxtCodePostal.Location = new System.Drawing.Point(675, 334);
             this.TxtCodePostal.Name = "TxtCodePostal";
-            this.TxtCodePostal.Size = new System.Drawing.Size(177, 20);
+            this.TxtCodePostal.Size = new System.Drawing.Size(177, 21);
             this.TxtCodePostal.TabIndex = 25;
             this.TxtCodePostal.TextChanged += new System.EventHandler(this.TxtCodePostal_TextChanged);
             // 
@@ -235,20 +244,21 @@
             // 
             this.CodePostal.AutoSize = true;
             this.CodePostal.BackColor = System.Drawing.Color.Transparent;
-            this.CodePostal.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold);
+            this.CodePostal.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.CodePostal.ForeColor = System.Drawing.Color.Lavender;
-            this.CodePostal.Location = new System.Drawing.Point(549, 337);
+            this.CodePostal.Location = new System.Drawing.Point(510, 337);
             this.CodePostal.Name = "CodePostal";
-            this.CodePostal.Size = new System.Drawing.Size(111, 16);
+            this.CodePostal.Size = new System.Drawing.Size(109, 17);
             this.CodePostal.TabIndex = 24;
             this.CodePostal.Text = "Code Postal :";
             // 
             // TxtVille
             // 
+            this.TxtVille.Font = new System.Drawing.Font("Century Gothic", 8.25F);
             this.TxtVille.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.TxtVille.Location = new System.Drawing.Point(641, 254);
+            this.TxtVille.Location = new System.Drawing.Point(602, 254);
             this.TxtVille.Name = "TxtVille";
-            this.TxtVille.Size = new System.Drawing.Size(250, 20);
+            this.TxtVille.Size = new System.Drawing.Size(250, 21);
             this.TxtVille.TabIndex = 23;
             this.TxtVille.TextChanged += new System.EventHandler(this.TxtVille_TextChanged);
             // 
@@ -256,11 +266,11 @@
             // 
             this.Ville.AutoSize = true;
             this.Ville.BackColor = System.Drawing.Color.Transparent;
-            this.Ville.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold);
+            this.Ville.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.Ville.ForeColor = System.Drawing.Color.Lavender;
-            this.Ville.Location = new System.Drawing.Point(549, 257);
+            this.Ville.Location = new System.Drawing.Point(510, 257);
             this.Ville.Name = "Ville";
-            this.Ville.Size = new System.Drawing.Size(63, 16);
+            this.Ville.Size = new System.Drawing.Size(49, 17);
             this.Ville.TabIndex = 22;
             this.Ville.Text = "Ville :";
             // 
@@ -268,20 +278,21 @@
             // 
             this.Birthday.AutoSize = true;
             this.Birthday.BackColor = System.Drawing.Color.Transparent;
-            this.Birthday.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold);
+            this.Birthday.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.Birthday.ForeColor = System.Drawing.Color.Lavender;
-            this.Birthday.Location = new System.Drawing.Point(549, 182);
+            this.Birthday.Location = new System.Drawing.Point(510, 182);
             this.Birthday.Name = "Birthday";
-            this.Birthday.Size = new System.Drawing.Size(159, 16);
+            this.Birthday.Size = new System.Drawing.Size(155, 17);
             this.Birthday.TabIndex = 20;
             this.Birthday.Text = "Date de naissance :";
             // 
             // TxtPrenom
             // 
+            this.TxtPrenom.Font = new System.Drawing.Font("Century Gothic", 8.25F);
             this.TxtPrenom.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.TxtPrenom.Location = new System.Drawing.Point(641, 104);
+            this.TxtPrenom.Location = new System.Drawing.Point(602, 104);
             this.TxtPrenom.Name = "TxtPrenom";
-            this.TxtPrenom.Size = new System.Drawing.Size(250, 20);
+            this.TxtPrenom.Size = new System.Drawing.Size(250, 21);
             this.TxtPrenom.TabIndex = 19;
             this.TxtPrenom.TextChanged += new System.EventHandler(this.TxtPrenom_TextChanged);
             // 
@@ -289,20 +300,20 @@
             // 
             this.Prenom.AutoSize = true;
             this.Prenom.BackColor = System.Drawing.Color.Transparent;
-            this.Prenom.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold);
+            this.Prenom.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.Prenom.ForeColor = System.Drawing.Color.Lavender;
-            this.Prenom.Location = new System.Drawing.Point(549, 107);
+            this.Prenom.Location = new System.Drawing.Point(510, 107);
             this.Prenom.Name = "Prenom";
-            this.Prenom.Size = new System.Drawing.Size(71, 16);
+            this.Prenom.Size = new System.Drawing.Size(74, 17);
             this.Prenom.TabIndex = 18;
             this.Prenom.Text = "Prenom :";
             // 
             // ExitCandidat
             // 
             this.ExitCandidat.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.ExitCandidat.Font = new System.Drawing.Font("Courier New", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ExitCandidat.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold);
             this.ExitCandidat.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.ExitCandidat.Location = new System.Drawing.Point(716, 480);
+            this.ExitCandidat.Location = new System.Drawing.Point(797, 499);
             this.ExitCandidat.Name = "ExitCandidat";
             this.ExitCandidat.Size = new System.Drawing.Size(175, 50);
             this.ExitCandidat.TabIndex = 28;
@@ -312,9 +323,10 @@
             // 
             // DateTimePicker
             // 
-            this.DateTimePicker.Location = new System.Drawing.Point(714, 179);
+            this.DateTimePicker.Font = new System.Drawing.Font("Century Gothic", 8.25F);
+            this.DateTimePicker.Location = new System.Drawing.Point(675, 179);
             this.DateTimePicker.Name = "DateTimePicker";
-            this.DateTimePicker.Size = new System.Drawing.Size(177, 20);
+            this.DateTimePicker.Size = new System.Drawing.Size(177, 21);
             this.DateTimePicker.TabIndex = 29;
             this.DateTimePicker.ValueChanged += new System.EventHandler(this.DateTimePicker_ValueChanged);
             // 
@@ -329,6 +341,32 @@
             this.pictureBox1.TabIndex = 30;
             this.pictureBox1.TabStop = false;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.Color.Lavender;
+            this.label1.Location = new System.Drawing.Point(122, 469);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(235, 17);
+            this.label1.TabIndex = 31;
+            this.label1.Text = "Candidature validé ou refusé :";
+            // 
+            // checkBox
+            // 
+            this.checkBox.AutoSize = true;
+            this.checkBox.BackColor = System.Drawing.Color.Transparent;
+            this.checkBox.FlatAppearance.BorderSize = 5;
+            this.checkBox.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.checkBox.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox.Location = new System.Drawing.Point(406, 472);
+            this.checkBox.Name = "checkBox";
+            this.checkBox.Size = new System.Drawing.Size(13, 12);
+            this.checkBox.TabIndex = 32;
+            this.checkBox.UseVisualStyleBackColor = false;
+            this.checkBox.CheckedChanged += new System.EventHandler(this.checkBox_CheckedChanged);
+            // 
             // GCFAINSTA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -336,6 +374,8 @@
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(984, 561);
+            this.Controls.Add(this.checkBox);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.DateTimePicker);
             this.Controls.Add(this.ExitCandidat);
@@ -361,6 +401,7 @@
             this.Controls.Add(this.Nom);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.CoAdmin);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "GCFAINSTA";
@@ -400,6 +441,8 @@
         private System.Windows.Forms.Button ExitCandidat;
         private System.Windows.Forms.DateTimePicker DateTimePicker;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.CheckBox checkBox;
     }
 }
 

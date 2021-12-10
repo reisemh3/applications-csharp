@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using MySql.Data;
+using MySql.Data.MySqlClient;
 
 namespace GCFA_INSTA
 {
@@ -17,18 +20,19 @@ namespace GCFA_INSTA
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private async void button1_Click(object sender, EventArgs e)
         {
-            GCFAINSTA valider = new GCFAINSTA();
-            valider.Show();
-            //this.Close();
+            Connexion connexion = new Connexion();
+            connexion.Show();
+            await Task.Delay(3000);
+            this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            ListCandidat valider = new ListCandidat();
-            valider.Show();
-            //this.Close();
+            ListCandidat listCandidat = new ListCandidat();
+            listCandidat.Show();
+            this.Close();
         }
     }
 }

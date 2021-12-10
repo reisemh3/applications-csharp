@@ -41,7 +41,7 @@
             // Valider
             // 
             this.Valider.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.Valider.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Valider.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
             this.Valider.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.Valider.Location = new System.Drawing.Point(126, 179);
             this.Valider.Name = "Valider";
@@ -54,7 +54,7 @@
             // Annuler
             // 
             this.Annuler.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.Annuler.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Annuler.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
             this.Annuler.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.Annuler.Location = new System.Drawing.Point(370, 179);
             this.Annuler.Name = "Annuler";
@@ -68,11 +68,11 @@
             // 
             this.ID.AutoSize = true;
             this.ID.BackColor = System.Drawing.Color.Transparent;
-            this.ID.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold);
+            this.ID.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.ID.ForeColor = System.Drawing.Color.Lavender;
             this.ID.Location = new System.Drawing.Point(221, 76);
             this.ID.Name = "ID";
-            this.ID.Size = new System.Drawing.Size(39, 16);
+            this.ID.Size = new System.Drawing.Size(33, 17);
             this.ID.TabIndex = 2;
             this.ID.Text = "ID :";
             // 
@@ -80,31 +80,33 @@
             // 
             this.mdp.AutoSize = true;
             this.mdp.BackColor = System.Drawing.Color.Transparent;
-            this.mdp.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold);
+            this.mdp.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold);
             this.mdp.ForeColor = System.Drawing.Color.Lavender;
             this.mdp.Location = new System.Drawing.Point(141, 131);
             this.mdp.Name = "mdp";
-            this.mdp.Size = new System.Drawing.Size(119, 16);
+            this.mdp.Size = new System.Drawing.Size(116, 17);
             this.mdp.TabIndex = 3;
             this.mdp.Text = "Mot de passe :";
             // 
             // TxtLogin
             // 
             this.TxtLogin.BackColor = System.Drawing.SystemColors.Window;
+            this.TxtLogin.Font = new System.Drawing.Font("Century Gothic", 8.25F);
             this.TxtLogin.ForeColor = System.Drawing.Color.Navy;
             this.TxtLogin.Location = new System.Drawing.Point(286, 74);
             this.TxtLogin.Name = "TxtLogin";
-            this.TxtLogin.Size = new System.Drawing.Size(250, 20);
+            this.TxtLogin.Size = new System.Drawing.Size(250, 21);
             this.TxtLogin.TabIndex = 4;
             this.TxtLogin.TextChanged += new System.EventHandler(this.TxtLogin_TextChanged);
             // 
             // TxtPassword
             // 
             this.TxtPassword.BackColor = System.Drawing.SystemColors.Window;
+            this.TxtPassword.Font = new System.Drawing.Font("Century Gothic", 8.25F);
             this.TxtPassword.ForeColor = System.Drawing.Color.Navy;
             this.TxtPassword.Location = new System.Drawing.Point(286, 127);
             this.TxtPassword.Name = "TxtPassword";
-            this.TxtPassword.Size = new System.Drawing.Size(250, 20);
+            this.TxtPassword.Size = new System.Drawing.Size(250, 21);
             this.TxtPassword.TabIndex = 5;
             this.TxtPassword.TextChanged += new System.EventHandler(this.TxtPassword_TextChanged);
             // 
@@ -112,11 +114,11 @@
             // 
             this.Titre.AutoSize = true;
             this.Titre.BackColor = System.Drawing.Color.Transparent;
-            this.Titre.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Titre.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold);
             this.Titre.ForeColor = System.Drawing.Color.Navy;
-            this.Titre.Location = new System.Drawing.Point(86, 20);
+            this.Titre.Location = new System.Drawing.Point(138, 21);
             this.Titre.Name = "Titre";
-            this.Titre.Size = new System.Drawing.Size(526, 31);
+            this.Titre.Size = new System.Drawing.Size(434, 33);
             this.Titre.TabIndex = 6;
             this.Titre.Text = "Veuillez entrer vos identifiants";
             // 
@@ -134,12 +136,14 @@
             this.Controls.Add(this.ID);
             this.Controls.Add(this.Annuler);
             this.Controls.Add(this.Valider);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Connexion";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Connexion";
+            this.Load += new System.EventHandler(this.Connexion_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

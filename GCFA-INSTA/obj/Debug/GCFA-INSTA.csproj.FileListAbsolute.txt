@@ -113,3 +113,43 @@ G:\01-CFA INSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applica
 G:\01-CFA INSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\obj\Debug\GCFA-INSTA.exe
 G:\01-CFA INSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\obj\Debug\GCFA-INSTA.pdb
 G:\01-CFA INSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\obj\Debug\GCFA_INSTA.NewPage.resources
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\obj\Debug\GCFA-INSTA.csproj.AssemblyReference.cache
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\obj\Debug\GCFA-INSTA.csproj.SuggestedBindingRedirects.cache
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\obj\Debug\GCFA-INSTA.exe
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\obj\Debug\GCFA-INSTA.pdb
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\bin\Debug\GCFA-INSTA.exe.config
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\bin\Debug\GCFA-INSTA.exe
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\bin\Debug\GCFA-INSTA.pdb
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\bin\Debug\BouncyCastle.Crypto.dll
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\bin\Debug\Google.Protobuf.dll
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\bin\Debug\K4os.Compression.LZ4.dll
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\bin\Debug\K4os.Compression.LZ4.Streams.dll
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\bin\Debug\K4os.Hash.xxHash.dll
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\bin\Debug\MySql.Data.dll
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\bin\Debug\MySqlBackup.dll
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\bin\Debug\System.Buffers.dll
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\bin\Debug\System.Memory.dll
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\bin\Debug\System.Numerics.Vectors.dll
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\bin\Debug\Ubiety.Dns.Core.dll
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\bin\Debug\ZstdNet.dll
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\bin\Debug\Google.Protobuf.pdb
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\bin\Debug\Google.Protobuf.xml
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\bin\Debug\K4os.Compression.LZ4.xml
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\bin\Debug\K4os.Compression.LZ4.Streams.xml
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\bin\Debug\K4os.Hash.xxHash.xml
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\bin\Debug\MySql.Data.xml
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\bin\Debug\System.Buffers.xml
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\bin\Debug\System.Memory.xml
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\bin\Debug\System.Numerics.Vectors.xml
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\obj\Debug\GCFA_INSTA.Candidature.resources
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\obj\Debug\GCFA_INSTA.Connexion.resources
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\obj\Debug\GCFA_INSTA.GCFAINSTA.resources
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\obj\Debug\GCFA_INSTA.ListCandidat.resources
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\obj\Debug\GCFA_INSTA.Properties.Resources.resources
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\obj\Debug\GCFA-INSTA.csproj.GenerateResource.cache
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\obj\Debug\GCFA-INSTA.csproj.CoreCompileInputs.cache
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\obj\Debug\GCFA-INSTA.csproj.CopyComplete
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\obj\Debug\GCFA_INSTA.MainChargement.resources
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\bin\Debug\Guna.UI2.dll
