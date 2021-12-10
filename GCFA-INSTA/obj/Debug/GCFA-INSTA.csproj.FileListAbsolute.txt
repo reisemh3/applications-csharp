@@ -235,3 +235,5 @@ C:\Users\dalin\Documents\workspace\Projet_de_groupe\applications-program\GCFA-IN
 C:\Users\dalin\Documents\workspace\Projet_de_groupe\applications-program\GCFA-INSTA\obj\Debug\GCFA-INSTA.exe
 C:\Users\dalin\Documents\workspace\Projet_de_groupe\applications-program\GCFA-INSTA\obj\Debug\GCFA-INSTA.pdb
 >>>>>>> fe58a8c1e91eb8484ccf0239f081d0d617f10533
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\bin\Debug\gcfainsta.mdf
+G:\01-CFAINSTA\02-Licence\01-INFORMATIQUE\02-C#\00-Projets\Gestionnaire\applications-csharp\GCFA-INSTA\bin\Debug\gcfainsta_log.ldf
