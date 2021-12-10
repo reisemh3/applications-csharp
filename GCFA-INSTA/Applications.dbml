@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ApplicationsDatabase" Class="ApplicationsDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-4BIKOBS\SQLEXPRESS;Initial Catalog=ApplicationsDatabase;Integrated Security=True;Pooling=False" SettingsObjectName="GCFA_INSTA.Properties.Settings" SettingsPropertyName="ApplicationsDatabaseConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Admin" Member="Admin">
+    <Type Name="Admin">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="email" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="password" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Admin_Gestion" Member="Gestion" ThisKey="Id" OtherKey="AdminID" Type="Gestion" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Gestion" Member="Gestion">
+    <Type Name="Gestion">
+      <Column Name="AdminID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ApplicantID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="Admin_Gestion" Member="Admin" ThisKey="AdminID" OtherKey="Id" Type="Admin" IsForeignKey="true" />
+      <Association Name="Applicant_Gestion" Member="Applicant" ThisKey="ApplicantID" OtherKey="Id" Type="Applicant" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Applicant" Member="Applicant">
+    <Type Name="Applicant">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="lastName" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="firstName" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="age" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="address" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="city" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="postcode" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="mail" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="ovrAverage" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="phoneNumber" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Applicant_Gestion" Member="Gestion" ThisKey="Id" OtherKey="ApplicantID" Type="Gestion" />
+    </Type>
+  </Table>
+</Database>

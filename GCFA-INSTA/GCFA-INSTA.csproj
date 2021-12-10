@@ -69,7 +69,9 @@
     <Reference Include="MySqlBackup, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MySqlBackup.1.0.1\lib\MySqlBackup.dll</HintPath>
     </Reference>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
     </Reference>
@@ -78,6 +80,7 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Management" />
     <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
@@ -107,17 +110,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Applications.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Applications.dbml</DependentUpon>
+    </Compile>
     <Compile Include="DBSQLServerUtils.cs" />
     <Compile Include="Connexion.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Connexion.Designer.cs">
       <DependentUpon>Connexion.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Database1DataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Database1DataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="DBUtils.cs" />
     <Compile Include="Form1.cs">
@@ -170,16 +173,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="Database1DataSet.xsc">
-      <DependentUpon>Database1DataSet.xsd</DependentUpon>
-    </None>
-    <None Include="Database1DataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>Database1DataSet.Designer.cs</LastGenOutput>
+    <None Include="Applications.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Applications.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="Database1DataSet.xss">
-      <DependentUpon>Database1DataSet.xsd</DependentUpon>
+    <None Include="Applications.dbml.layout">
+      <DependentUpon>Applications.dbml</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -196,15 +196,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Database1.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Database1_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>Database1.mdf</DependentUpon>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.7.2 %28x86 et x64%29</ProductName>
@@ -215,6 +206,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

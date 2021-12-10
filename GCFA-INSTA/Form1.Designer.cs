@@ -34,12 +34,13 @@ namespace GCFA_INSTA
             // 
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Name = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load_1);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        //private System.Windows.Forms.Label label1;
     }
 }

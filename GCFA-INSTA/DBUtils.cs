@@ -11,8 +11,10 @@ namespace GCFA_INSTA
     {
         public static SqlConnection GetDBConnection()
         {
-            string datasource = @"(LocalDB)\MSSQLLocalDB";
-            string database = "C:/Users/dalin/Documents/workspace/Projet_de_groupe/applications-program/GCFA-INSTA/Database1.mdf";
+            //string datasource = @"(LocalDB)\MSSQLLocalDB";
+            //string database = "C:/Users/dalin/Documents/workspace/Projet_de_groupe/applications-program/GCFA-INSTA/Database1.mdf";
+            string datasource = @"DESKTOP-4BIKOBS\SQLEXPRESS";
+            string database = "ApplicationsDatabase";
             return DBSQLServerUtils.GetDBConnection(datasource, database);
         }
     }

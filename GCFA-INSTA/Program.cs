@@ -24,14 +24,27 @@ namespace GCFA_INSTA
             try
             {
                 Console.WriteLine("Openning Connection ...");
+                string queryString ="SELECT * FROM dbo.Applicant;";
+                SqlCommand command = new SqlCommand(queryString, conn);
                 conn.Open();
                 Console.WriteLine("Connection successful!");
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    Console.WriteLine("using SqlDataReader");
+                if (reader.Read())
+                {
+                    Console.WriteLine(String.Format("{0}, {1}",
+                        reader[0], reader[1]));
+                }
+                }
             }
             catch (Exception e)
             {
                 Console.WriteLine("Error: " + e.Message);
             }
             Console.Read();
+
         }
+
     }
 }

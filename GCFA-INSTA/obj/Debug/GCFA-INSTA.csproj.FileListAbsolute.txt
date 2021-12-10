@@ -164,8 +164,6 @@ C:\Users\dalin\Documents\workspace\Projet_de_groupe\applications-program\GCFA-IN
 C:\Users\dalin\Documents\workspace\Projet_de_groupe\applications-program\GCFA-INSTA\obj\Debug\GCFA-INSTA.csproj.CoreCompileInputs.cache
 C:\Users\dalin\Documents\workspace\Projet_de_groupe\applications-program\GCFA-INSTA\obj\Debug\GCFA-INSTA.exe
 C:\Users\dalin\Documents\workspace\Projet_de_groupe\applications-program\GCFA-INSTA\obj\Debug\GCFA-INSTA.pdb
-C:\Users\dalin\Documents\workspace\Projet_de_groupe\applications-program\GCFA-INSTA\bin\Debug\Database1.mdf
-C:\Users\dalin\Documents\workspace\Projet_de_groupe\applications-program\GCFA-INSTA\bin\Debug\Database1_log.ldf
 C:\Users\dalin\Documents\workspace\Projet_de_groupe\applications-program\GCFA-INSTA\bin\Debug\GCFA-INSTA.exe.config
 C:\Users\dalin\Documents\workspace\Projet_de_groupe\applications-program\GCFA-INSTA\bin\Debug\GCFA-INSTA.exe
 C:\Users\dalin\Documents\workspace\Projet_de_groupe\applications-program\GCFA-INSTA\bin\Debug\GCFA-INSTA.pdb

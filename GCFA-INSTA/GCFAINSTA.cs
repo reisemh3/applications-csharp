@@ -12,6 +12,7 @@ namespace GCFA_INSTA
 {
     public partial class GCFAINSTA : Form
     {
+
         public GCFAINSTA()
         {
             InitializeComponent();
@@ -33,10 +34,31 @@ namespace GCFA_INSTA
         //-------------------------Bouton Valider--------------------------//
         private void button2_Click(object sender, EventArgs e)
         {
-            //Création d'une fonction qui ouvre une nouvlle fenetre en cliquant sur le bouton
-            ListCandidat listCandidat = new ListCandidat();
-            listCandidat.Show();
-            //this.Close();
+            try
+            {
+                //Création d'une fonction qui ouvre une nouvlle fenetre en cliquant sur le bouton
+                ListCandidat listCandidat = new ListCandidat();
+                listCandidat.Show();
+                //this.Close();
+                Applicant app1 = new Applicant();
+                app1.lastName = TxtNom.Text;
+                app1.firstName = TxtPrenom.Text;
+                app1.age = int.Parse(TxtAge.Text);
+                app1.address = TxtAdresse.Text;
+                app1.city = TxtVille.Text;
+                app1.postcode = int.Parse(TxtCodePostal.Text);
+                app1.mail = TxtEmail.Text;
+                app1.ovrAverage = float.Parse(TxtAverage.Text);
+                app1.phoneNumber = int.Parse(TxtNumber.Text);
+
+                ListCandidat.ApplicationsDB.Applicant.InsertOnSubmit(app1);
+                //ListCandidat.ApplicationsDB.Applicant.
+                MessageBox.Show("Le candidat a été ajouté.");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
             //***************************************************************************//
         }
         //-------------------------Bouton Annuler--------------------------//
@@ -95,6 +117,11 @@ namespace GCFA_INSTA
         }
 
         private void TxtAverage_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
